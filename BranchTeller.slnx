@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BranchTeller.Api/BranchTeller.Api.csproj" />
+    <Project Path="src/BranchTeller.Console/BranchTeller.Console.csproj" />
+    <Project Path="src/BranchTeller.Core/BranchTeller.Core.csproj" />
+    <Project Path="src/BranchTeller.Tests/BranchTeller.Tests.csproj" />
+    <Project Path="src/BranchTeller.WinForms/BranchTeller.WinForms.csproj" />
+  </Folder>
+</Solution>

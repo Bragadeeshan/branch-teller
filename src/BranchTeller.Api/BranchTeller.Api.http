@@ -1,0 +1,6 @@
+@BranchTeller.Api_HostAddress = http://localhost:5031
+
+GET {{BranchTeller.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
