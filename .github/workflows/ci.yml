@@ -26,5 +26,8 @@ jobs:
       - name: Build
         run: dotnet build src/BranchTeller.Api/BranchTeller.Api.csproj --no-restore -c Release
 
+      - name: Run tests
+        run: dotnet test src/BranchTeller.Tests/BranchTeller.Tests.csproj --verbosity normal
+
       - name: Build Docker image
         run: docker build -t branchteller-api .
