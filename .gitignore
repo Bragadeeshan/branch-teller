@@ -5,5 +5,5 @@
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
-data/
+/data/
 .env
